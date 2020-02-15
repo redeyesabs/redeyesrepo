@@ -8,6 +8,12 @@ app.config(function($routeProvider){
           .when('/',{
                 templateUrl: 'homeBody.html'
           })
+          .when('/javafx',{
+                templateUrl: 'javafxBody.html'
+          })
+          .when('/automationBody',{
+                templateUrl: 'automationBody.html'
+          })
           .when('/about',{
                 templateUrl: 'aboutBody.html'
           });
