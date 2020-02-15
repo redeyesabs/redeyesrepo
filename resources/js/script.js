@@ -14,8 +14,8 @@ app.config(function($routeProvider){
           .when('/automation',{
                 templateUrl: 'automationBody.html'
           })
-          .when('/about',{
-                templateUrl: 'aboutBody.html'
+          .when('/contact',{
+                templateUrl: 'contactBody.html'
           });
 
 });
