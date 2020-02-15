@@ -11,7 +11,7 @@ app.config(function($routeProvider){
           .when('/javafx',{
                 templateUrl: 'javafxBody.html'
           })
-          .when('/automationBody',{
+          .when('/automation',{
                 templateUrl: 'automationBody.html'
           })
           .when('/about',{
